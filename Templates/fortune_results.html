@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<head>
+    <title>Ahoy, Zailor!</title>
+</head>
+<body>
+        You...
+    <br>
+        {% if  male %}
+            are considered Male. How nice.
+        {% else if female %}
+            are considered Female. How nice.
+        {% else if other %}
+            refused to pick a gender. Good on you.
+        {% endif %}
+    <br>
+        Your preferred poison is...
+        {% if coffee %}
+            prefer Darkdrop Coffee. Fan of the bitters, are we?
+        {% else if zzoup %}
+            prefer a nice bowl of zzoup. Hope you never ask what meat that is.
+        {% else if wine %}
+            prefer Mushroom Wine. Ever wonder what the floating bits are?
+        {% else if honey %}
+            prefer flasks of Prisoner's Honey. Do you like their memories sweet or sour?
+        {% else if salt %}
+            prefer Mutersalt. Do you enjoy having nothing to say? Or do you have too many secrets to keep?
+        {% endif %}
+    <br>
+</body>
